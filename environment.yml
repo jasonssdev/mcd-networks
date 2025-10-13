@@ -1,0 +1,23 @@
+name: mcd-ml-py312
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pathlib
+  - plotly
+  - python-dotenv
+  - python=3.12
+  - scikit-learn
+  - seaborn
+  - xlrd
