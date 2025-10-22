@@ -1,23 +1,27 @@
-name: mcd-ml-py312
+name: ml-py3.12
 channels:
   - defaults
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - ipykernel
-  - ipywidgets
-  - jupyter
+  - python=3.12
   - jupyterlab
   - matplotlib
-  - notebook
   - numpy
-  - openpyxl
   - pandas
-  - pathlib
-  - plotly
-  - python-dotenv
-  - python=3.12
   - scikit-learn
   - seaborn
+  - conda-forge::pdfplumber
+  - conda-forge::openai
+  - python-dotenv==1.1.0
+  - openpyxl
+  - statsmodels
+  - pathlib
+  - jupyter_client[version='<8']
+  - notebook
+  - pyzmq[version='<25']
+  - ipywidgets
   - xlrd
+  - imbalanced-learn
+  - networkx
